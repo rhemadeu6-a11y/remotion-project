@@ -1,0 +1,23 @@
+{
+  "name": "remotion-project",
+  "version": "1.0.0",
+  "description": "MOTION LABS — remotion 스케치 영상",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.485",
+    "@remotion/cli": "^4.0.485",
+    "@remotion/renderer": "^4.0.485",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.485"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}
