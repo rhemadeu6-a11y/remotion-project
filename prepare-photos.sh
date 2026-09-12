@@ -1,7 +1,9 @@
 #!/bin/bash
 # 원본 사진(수십MB) → Remotion용 2400px 리사이즈 (public/photos/01.jpg ...)
 set -e
-SRC="/Users/potato/Library/Mobile Documents/com~apple~CloudDocs/CONNECTED HK/미래내일 일경험/사진"
+# 원본 사진 폴더. 첫 인자로 주거나 SRC 로 넘긴다.
+#   ./prepare-photos.sh "~/Desktop/촬영본/사진"
+SRC="${1:-${SRC:?원본 사진 폴더를 인자나 SRC 로 지정하세요}}"
 DST="$(dirname "$0")/public/photos"
 mkdir -p "$DST"
 
