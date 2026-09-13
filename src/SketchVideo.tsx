@@ -19,10 +19,11 @@ const MONTAGE_FRAMES = SKETCH_DURATION_FRAMES - TITLE_FRAMES - OUTRO_FRAMES; // 
 const PER_PHOTO_FRAMES = Math.floor(MONTAGE_FRAMES / PHOTO_COUNT); // 107
 const CROSSFADE_FRAMES = 18;
 
+// 건마다 바꿔 쓰는 자리. CONNECTED HK 는 폐기된 명의라 현행 제작사 이름으로 둔다.
 const PROJECT_TITLE = '미래내일 일경험';
-const SUBTITLE = 'CONNECTED HK · 2026';
+const SUBTITLE = 'RAM STUDIO · 2026';
 const OUTRO_LINE_1 = 'Thanks for the moments';
-const OUTRO_LINE_2 = 'CONNECTED HK · 미래내일 일경험';
+const OUTRO_LINE_2 = 'RAM STUDIO · 미래내일 일경험';
 
 const PAPER_BG =
   'radial-gradient(ellipse at 30% 20%, #fefaf1 0%, #f5ecd7 55%, #e9dcbf 100%)';
